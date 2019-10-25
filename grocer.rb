@@ -14,7 +14,7 @@ final_hash
 end
 
 def apply_coupons(cart, coupons)
-  coupons.each do
+  coupons.each do |coupons|
 end
 
 def apply_clearance(cart)
