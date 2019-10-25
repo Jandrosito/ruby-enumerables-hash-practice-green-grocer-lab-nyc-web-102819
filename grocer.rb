@@ -3,7 +3,8 @@ def consolidate_cart(cart)
  cart.each do |element_hash|
    element_name = element_hash.keys[0]
    element_stats = element_hash.values[0]
-   if final_hash.has_key?
+   if final_hash.has_key?(elemetn_name)
+     
 end
 
 def apply_coupons(cart, coupons)
