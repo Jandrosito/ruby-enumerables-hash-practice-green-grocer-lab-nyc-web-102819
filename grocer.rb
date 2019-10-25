@@ -6,7 +6,7 @@ def consolidate_cart(cart)
    if final_hash.has_key?(elemetn_name)
      element_stats[:count] += 1
    else
-     final_hash
+     final_hash[element_name]
 end
 
 def apply_coupons(cart, coupons)
